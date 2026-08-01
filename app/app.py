@@ -4,7 +4,7 @@ import sqlite3
 app = Flask(__name__)
 
 # FALLA 1: Credencial o Token Hardcodeado (Secret Scanning)
-AWS_SECRET_KEY_SIMULATED = "AKIAIOSFODNN7EXAMPLE_SECRET_KEY"
+AWS_SECRET_KEY_SIMULATED = "AKIAZQ3DG2K5J9XPLQMR"
 
 @app.route("/buscar")
 def buscar():
